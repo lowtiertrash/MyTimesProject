@@ -11,8 +11,6 @@ header {
   border: 1px solid black;
   z-index: 1;
 
-
-
 }
 
 span {
@@ -50,20 +48,18 @@ nav span {
   padding 20px 10px;
 }
 
-.main-content {
-  display: flex;
-  padding-top: 100px;
-  margin: 0 auto 78px auto;
-}
-
 div {
   border: 1px solid black;
 }
 
+body {
+  margin: 0;
+}
+
+
 .column {
   display: flex;
   flex-direction: column;
-  margin-right: 32px;
   height: 500px;
 }
 
@@ -81,4 +77,38 @@ div {
 .column.small {
   width: 240px
 
+}
+
+.main-content {
+  display: flex;
+  width: 1200;
+  padding-top: 100px;
+  margin: 0 auto 78px auto;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 280px;
+  text-align: center;
+  margin-top: 30px
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+
+}
+
+.main-story .image-container {
+  background-image: url(
+    https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  width: 629px;
+  margin: 0;
+  font-size: 40px;
+  text-align: left;
 }
