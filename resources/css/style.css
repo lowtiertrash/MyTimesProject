@@ -66,6 +66,7 @@ body {
 .column.large {
   width: 630px;
 
+
 }
 
 .column.medium {
@@ -111,4 +112,20 @@ body {
   margin: 0;
   font-size: 40px;
   text-align: left;
+}
+
+.cat-ceo .image-container {
+  background-image: url(
+    https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  width:300px;
+  margin: 0;
+  text-align: center;
+}
+
+.fall-season .image-container {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+
+.hipster-cameraman .image-container {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
 }
